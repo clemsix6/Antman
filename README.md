@@ -2,7 +2,7 @@
 
 ### Introduction
 
-Le antman est un programme qui permet de compresser des données. Il traite la lecture et écriture de fichiers&#x20;
+Le antman est un programme qui permet de compresser des données. Il traite la lecture et écriture de fichiers.
 
 
 
@@ -14,9 +14,9 @@ La commande ./antman permet de compresser un fichier tandis que le ./giantman d�
 
 Où filename est le nom du fichier et 1 est le type de compression. Il y a 3 types de compression;
 
-* 1, Correspond aux fichiers contenant des paroles de musique
-* 2, Correspond aux fichiers contenant du code HTML
-* 3, Correspond aux fichiers contenant du P3 PPM images
+* 1, correspond aux fichiers contenant des paroles de musique
+* 2, correspond aux fichiers contenant du code HTML
+* 3, correspond aux fichiers contenant du P3 PPM images
 
 
 

@@ -8,9 +8,7 @@ Le antman est un programme qui permet de compresser des données. Il traite la l
 
 ### Fonctionnement
 
-Le progjet utilise un système de compression via dictionnaire. Voici le fonctionnement en prenant l'exemple du fichier HTML.
-
-Comme on peut le constater sur l'exemple d'un fichier HTML simple ci-dessous on retrouve souvent les mêmes mots clés.
+Le projet utilise un système de compression via dictionnaire. Comme on peut le constater sur l'exemple d'un fichier HTML simple comme ci-dessous on retrouve souvent les mêmes mots clés.
 
 ```html
 <!DOCTYPE html>

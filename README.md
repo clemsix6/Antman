@@ -2,13 +2,13 @@
 
 ### Introduction
 
-Le antman est un programme qui permet de compresser des données. Il traite la lecture et écriture de fichiers.
+L'antman est un programme qui permet de compresser des données. Il traite la lecture et écriture de fichiers.
 
 
 
 ### Fonctionnement
 
-Le projet utilise un système de compression via dictionnaire. Comme on peut le constater sur l'exemple d'un fichier HTML simple comme ci-dessous on retrouve souvent les mêmes mots clés.
+Le projet utilise un système de compression via un dictionnaire. Comme on peut le constater sur l'exemple d'un fichier HTML simple comme ci-dessous, on retrouve souvent les mêmes mots clé.
 
 ```html
 <!DOCTYPE html>
@@ -28,7 +28,7 @@ Le projet utilise un système de compression via dictionnaire. Comme on peut le 
 </html>
 ```
 
-Par exemple les mots clés "img", "height" ou encore "images" sont des mots qu'on retrouve souvent dans le texte. L'idée est donc de les remplacer par des nombres, par exemple "img" deviendra "0", "height" deviendra "1" et "images" "2". Les indices correpondant aux mots clés sont ensuite sauvegardés dans un dictionnaire en entête du fichier.
+Par exemple les mots-clés "img", "height" ou encore "images" sont des mots qu'on retrouve souvent dans le texte. L'idée est donc de les remplacer par des nombres, par exemple "img" deviendra "0", "height" deviendra "1" et "images" "2". Les indices correspondants aux mots-clés sont ensuite sauvegardés dans un dictionnaire en entête du fichier.
 
 ### Utilisation
 
